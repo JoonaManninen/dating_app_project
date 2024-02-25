@@ -1,0 +1,47 @@
+.chat-container {
+  max-height: 600px;
+  overflow-y: auto; 
+}
+  
+.user-bubble {
+  background-color: #DCF8C6; 
+  text-align: left;
+}
+.other-bubble {
+  background-color: #FFFFFF;
+  text-align: right; 
+}
+
+.chat-bubble {
+  margin-bottom: 10px; 
+  padding: 10px; 
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.message-text {
+  margin-bottom: 5px; 
+}
+
+.message-time {
+  font-size: 12px; 
+  color: #999; 
+}
+  
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .chat-bubble {
+    margin-bottom: 10px; 
+    padding: 10px; 
+  }
+  
+  .message-text {
+    margin-bottom: 5px;
+    font-size: small;
+  }
+  
+  .message-time {
+    font-size: 8px;
+    color: #999;
+  }
+}

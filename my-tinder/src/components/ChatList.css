@@ -1,0 +1,26 @@
+.chat-list-container {
+    height: 100%; /* Ensure the parent container has a fixed height */
+    width: 100%; /* Ensure the parent container has a fixed width */
+  }
+
+.chat-list { 
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  .chat-list-item {
+    padding: 10px;
+    height: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chat-list-item:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  
+  .chat-list-item.active {
+    background-color: #ef4a60; /* Highlight the active chat */
+  }
+  
